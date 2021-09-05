@@ -1,0 +1,93 @@
+img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 200px;
+    background: linear-gradient(#f22a1f 0%, #6ef5d1 100%);
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 80px;
+    z-index: 9;
+}
+
+#name {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 5;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+#biography {
+    padding-top: 800px;
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    height: 4px;
+    background-color: #f90c0c;
+}
+
+p {
+    color: blue;
+    margin: 25px auto;
+    width: 400px;
+    line-height: 20px;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    z-index: 10;
+    margin-left: 800px;
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.links : hover {
+    font-size: 20px ;
+    background-color: darkorange ;
+}
+
+
+#video {
+    text-align: center;
+    font-size: 25px;
+    background-color: cyan;
+    padding-bottom: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+    text-shadow: 2px 2px black;
+}
+
+.article1:hover {
+    color: fuchsia;
+}
+
+body {
+    text-align: center ;
+}
